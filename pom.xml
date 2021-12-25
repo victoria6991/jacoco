@@ -73,14 +73,14 @@
                 <artifactId>spotbugs-maven-plugin</artifactId>
                 <version>4.5.0.0</version>
                 <executions>
-                <execution>
-                    <id>check</id>
-                    <phase>verify</phase>
-                    <goals>
-                        <goal>check</goal>
-                    </goals>
-                </execution>
-            </executions>
+                    <execution>
+                        <id>check</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
 
             <plugin>
